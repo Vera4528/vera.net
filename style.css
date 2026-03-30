@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5f953d;
+    padding: flex;
+}
+
+.logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.input {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
+
+/*When the user hovers their mouse over a link inside 
+the navigation bar, apply these styles. */
+.nav-links li a:hover {
+    background-color: #2b501d;
+    border-radius: 5px;
+}
+
+.search-box {
+    display: flex;
+    gap: 5px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.search-box input {
+    padding: 5px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.search-box button {
+    padding: 5px 10px;
+    background-color: #9dbc91;
+    cursor: pointer;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.page {
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;      
+  background-position: center;  
+  background-attachment: fixed; 
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  color: #065308;
+  border: 2px solid black;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#contacts {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+a {
+    color: rgb(13, 102, 7);          
+    text-decoration: none;  
+}
+

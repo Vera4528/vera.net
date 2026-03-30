@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veronica's Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">Vera's Balcony</div>
+
+        <!-- Tabs -->
+        <ul class="nav-links">
+            <li><a href="#" onclick="showPage('home')">Home</a></li>
+            <li><a href="#" onclick="showPage('about')">About</a></li>
+            <li><a href="#" onclick="showPage('project')">Projects</a></li>
+            <li><a href="#" onclick="showPage('contacts')">Contacts</a></li>
+        </ul>
+
+        <!-- Search -->
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Enter keyword...">
+            <button id="searchBtn" onclick="search()">Search</button>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section id="home" class="page"
+        <div>
+            <p class = "input">Hi! my name is Veronica, <br>
+                I'm a Junior studying Computer and Data Science 
+                in University of Arizona.</p>
+        </div>
+    </section>
+    <section id="about" class="page hidden">About me</section>
+    <section id="project" class="page hidden">Projects</section>
+    <section id="contacts" class="page hidden">
+        <div class="contact-container">
+            <a href="mailto:vwu528@arizona.edu">
+                School Email
+            </a>
+            <a href="https://www.linkedin.com/in/veronica-ellingboe-894327280/">
+                LinkedIn
+            </a>
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
