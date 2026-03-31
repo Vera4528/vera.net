@@ -64,7 +64,7 @@ the navigation bar, apply these styles. */
 }
 
 body {
-  background-image: url("../background.jpg");
+  background-image: url("../images/background.jpg");
   background-repeat: no-repeat; 
   background-size: cover;      
   background-position: center;  
